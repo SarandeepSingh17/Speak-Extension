@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Speak",
+    "description": "Speak lets you to convert speech to text",
+    "version": "1",
+    "author": "Sarandeep & Anmol",
+    "short_name": "Speak",
+    "browser_action": {
+      "default_icon": "logo.jpg",
+      "default_title": "Speak",
+      "default_popup": "popup.html"
+    },
+    "minimum_chrome_version": "25",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [{
+      "js": ["content.js"],
+      "matches": ["<all_urls>"],
+      "all_frames": true
+    }]
+  }
