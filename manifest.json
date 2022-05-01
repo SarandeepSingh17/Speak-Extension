@@ -3,10 +3,9 @@
     "name": "Speak",
     "description": "Speak lets you to convert speech to text",
     "version": "1",
-    "author": "Sarandeep & Anmol",
+    "author": "Sarandeep",
     "short_name": "Speak",
     "browser_action": {
-      "default_icon": "logo.jpg",
       "default_title": "Speak",
       "default_popup": "popup.html"
     },
