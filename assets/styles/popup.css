@@ -39,6 +39,40 @@ body{
     font-size: 14px;
     line-height: 1.5;
   }
+
+  .buttons-container{
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    align-items: stretch;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  button{
+    display: inline-block;
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+    background: rgb(244, 244, 245);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .activation-button{
+    font-weight: 600;
+    color:#035a03;
+    border-right: 1px solid white;
+  }
+  
+  .deactivation-button{
+    font-weight: 600;
+    color: #920101;
+  }
   
   p.error-message:empty{
     display: none;
